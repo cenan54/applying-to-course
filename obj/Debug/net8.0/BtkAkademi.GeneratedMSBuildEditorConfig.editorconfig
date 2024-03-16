@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Projects\mvc-btk\BtkAkademi
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Projects/mvc-btk/BtkAkademi/Views/Course/Apply.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEFwcGx5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Projects/mvc-btk/BtkAkademi/Views/Course/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
