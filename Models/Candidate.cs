@@ -1,4 +1,6 @@
-public class Candidate
+namespace BtkAkademi.Models
+{
+   public class Candidate
 {
     public String? Email { get; set; } = String.Empty;
     public String? FirstName { get; set; } = String.Empty;
@@ -12,4 +14,5 @@ public class Candidate
  {
     ApplyAt = DateTime.Now;
  }   
+}
 }
