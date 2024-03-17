@@ -8,16 +8,19 @@ Apply
 </div>
 
 <form method="post" asp-action="Apply">
+
+    <div class="text-danger" asp-validation-summary="All"></div>
+
     <div class="form-group my-3">
-        <label asp-for="Email">E-Mail</label>
+        <label asp-for="Email">E-Mail*</label>
         <input asp-for="Email" name="Email" class="form-control"/>
     </div>
     <div class="form-group my-3">
-        <label asp-for="FirstName">First Name</label>
+        <label asp-for="FirstName">First Name*</label>
         <input asp-for="FirstName" name="FirstName" class="form-control"/>
     </div>
     <div class="form-group my-3">
-        <label asp-for="LastName">Last Name</label>
+        <label asp-for="LastName">Last Name*</label>
         <input asp-for="LastName" name="LastName" class="form-control"/>
     </div>
     <div class="form-group my-3">
@@ -37,7 +40,7 @@ Apply
     <fieldset class="my-5">
         <legend>Select One Course</legend>
         <p>
-            <input id="mvc" type="radio" asp-for="SelectedCourse"  value="ASP.NET Core MVC"/>
+            <input id="mvc" checked type="radio" asp-for="SelectedCourse"  value="ASP.NET Core MVC"/>
             <label for="mvc">ASP.Net Core MVC</label>
         </p>
         <p>
@@ -49,6 +52,10 @@ Apply
             <label for="angular">Angular</label>
         </p>
     </fieldset>
+
+    <div>
+        <p class="text-muted">Asterisk indicates obligation.</p>
+    </div>
 
     <div>
         <button class="btn btn-primary" type="submit">Apply</button>
